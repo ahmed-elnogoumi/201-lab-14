@@ -1,12 +1,10 @@
 'use strict';
 
-
 let votingRounds = 25;
 let productIndexArray = [];
 
 let imgElements = document.querySelectorAll('img');
 let imgContainer = document.querySelector('section');
-
 
 let state = new AppState();
 state.loadItems();
